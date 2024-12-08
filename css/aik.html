@@ -1,0 +1,772 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="description" content="">
+  <meta name="author" content="Ahmed">
+   
+  <!--Favicon -->
+  <link rel="icon" type="image/png" href="img/workshop.png"/>
+
+  <!-- Write your Name here!-->
+  <title>Sohaib Ahmed</title>
+
+
+  <!-- Bootstrap core CSS -->
+  <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  
+  <!-- Custom fonts for this website -->
+  <link href="https://fonts.googleapis.com/css?family=Saira+Extra+Condensed:500,700" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Muli:400,400i,800,800i" rel="stylesheet">
+  <link href="vendor/fontawesome-free/css/all.min.css" rel="stylesheet">
+
+  <!-- Custom styles for this template -->
+  <link href="css/resume.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+</head>
+<style>
+.lion{
+  width:40%;
+  height: 60%;
+}
+.wrapper {
+  width:600px;
+  height: 300px;
+  position: relative;
+  margin-left: auto;
+  margin-right: auto;
+  top: 100px;
+}
+
+.fl-fl {
+  background: #430606;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  padding: 4px;
+  width: 190px;
+  position: fixed;
+  right: -160px;
+  z-index: 1000;
+  font: normal normal 10px Arial;
+  -webkit-transition: all .25s ease;
+  -moz-transition: all .25s ease;
+  -ms-transition: all .25s ease;
+  -o-transition: all .25s ease;
+  transition: all .25s ease;
+}
+
+.fa {
+  font-size: 20px;
+  color: #fff;
+  padding: 10px 0;
+  width: 40px;
+  margin-left: 8px;
+}
+
+.fl-fl:hover {
+  right: 0;
+}
+
+.fl-fl a {
+  color: #fff !important;
+  text-decoration: none;
+  text-align: center;
+  line-height: 43px!important;
+  vertical-align: top!important;
+}
+
+.float-fb {
+  top: 160px;
+}
+
+.float-tw {
+  top: 215px;
+}
+
+.float-gp {
+  top: 270px;
+}
+
+.float-rs {
+  top: 325px;
+}
+
+.float-ig {
+  top: 380px;
+}
+
+.float-pn {
+  top: 435px;
+}
+/*....==============-----*/
+.company {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.company-info {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-left: 108px;
+}
+
+.img {
+  width: 100%;
+  margin: 1rem 0rem 0rem 2rem;
+}
+
+.img img {
+  width: 100%;
+}
+
+.company-info {
+  width: 100%;
+  margin-right: 4rem;
+}
+
+.company-info span {
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+.company-info span .our {
+  color:#430606;
+}
+
+.company-info p{
+  font-size: 1.1rem;
+}
+/*....................................................*/
+#myDIV {
+  margin: auto;
+  border: 1px solid black;
+  width: 300px;
+  height: 300px;
+  background-color: white;
+  color: white;
+  animation: mymove 5s;
+}
+
+@keyframes mymove {
+  50% {transform: rotate(180deg);}
+}
+body {
+  font-family: 'Muli', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
+  padding-top: 54px;
+  color: white;
+  background-color: black;
+}
+
+@media (min-width: 992px) {
+  body {
+    padding-top: 0;
+    padding-left: 17rem;
+  }
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: 'Saira Extra Condensed', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
+  font-weight: 700;
+  text-transform: uppercase;
+  color: grey;
+}
+
+h1 {
+  font-size: 6rem;
+  line-height: 5.5rem;
+}
+
+h2 {
+  font-size: 3.5rem;
+}
+
+h3 {
+  font-size: 2rem;
+}
+
+p.lead {
+  font-size: 1.15rem;
+  font-weight: 400;
+}
+
+.subheading {
+  text-transform: uppercase;
+  font-weight: 500;
+  font-family: 'Saira Extra Condensed', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
+  font-size: 1.5rem;
+}
+
+.social-icons a {
+  display: inline-block;
+  height: 3.5rem;
+  width: 3.5rem;
+  background-color: #030303;
+  color: #fff !important;
+  border-radius: 100%;
+  text-align: center;
+  font-size: 1.5rem;
+  line-height: 3.5rem;
+  margin-right: 1rem;
+}
+
+.social-icons a:last-child {
+  margin-right: 0;
+}
+
+.social-icons a:hover {
+  background-color: rgb(83, 74, 74);
+}
+
+.dev-icons {
+  font-size: 3rem;
+}
+
+.dev-icons .list-inline-item i:hover {
+  color: rgb(0, 0, 0);
+}
+
+#sideNav .navbar-nav .nav-item .nav-link {
+  font-weight: 800;
+  letter-spacing: 0.05rem;
+  text-transform: uppercase;
+}
+
+
+#sideNav .navbar-toggler:focus {
+  outline-color: #413f3e;
+}
+
+@media (min-width: 992px) {
+  #sideNav {
+    text-align: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    display: flex;
+    flex-direction: column;
+    width: 17rem;
+    height: 100vh;
+  }
+  #sideNav .navbar-brand {
+    display: flex;
+    margin: auto auto 0;
+    padding: 0.5rem;
+  }
+  #sideNav .navbar-brand .img-profile {
+    max-width: 10rem;
+    max-height: 10rem;
+    border: 0.5rem solid black;
+  }
+  #sideNav .navbar-collapse {
+    display: flex;
+    align-items: flex-start;
+    flex-grow: 0;
+    width: 100%;
+    margin-bottom: auto;
+  }
+  #sideNav .navbar-collapse .navbar-nav {
+    flex-direction: column;
+    width: 100%;
+  }
+  #sideNav .navbar-collapse .navbar-nav .nav-item {
+    display: block;
+  }
+  #sideNav .navbar-collapse .navbar-nav .nav-item .nav-link {
+    display: block;
+  }
+}
+
+section.resume-section {
+  padding-top: 5rem !important;
+  padding-bottom: 5rem !important;
+  max-width: 75rem;
+}
+
+section.resume-section .resume-item .resume-date {
+  min-width: none;
+}
+
+@media (min-width: 768px) {
+  section.resume-section {
+    min-height: 100vh;
+  }
+  section.resume-section .resume-item .resume-date {
+    min-width: 18rem;
+  }
+}
+
+@media (min-width: 992px) {
+  section.resume-section {
+    padding-top: 3rem !important;
+    padding-bottom: 3rem !important;
+  }
+}
+
+.bg-primary {
+  background-color: rgb(0, 0, 0) !important;
+}
+
+.text-primary {
+  color: rgb(0, 0, 0) !important;
+}
+
+a , g{
+  color: grey;
+  
+}
+
+a:hover, a:focus, a:active {
+  color: #430606;
+}
+/*...timeline----------------*/
+.timeline {
+            position: relative;
+            max-width: 800px;
+            margin: 2em auto;
+            padding: 1em;
+        }
+
+        .timeline::after {
+            content: '';
+            position: absolute;
+            width: 6px;
+            background-color: #430606;
+            top: 0;
+            bottom: 0;
+            left: 50%;
+            transform: translateX(-50%);
+        }
+
+        .timeline-event {
+            margin: 1em 0;
+            padding: 1em;
+            background: black;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            position: relative;
+            width: 50%;
+            animation: fadeIn 1s ease-in-out;
+            transition: transform 0.3s ease-in-out;
+        }
+
+        .timeline-event:hover {
+            transform: scale(1.03);
+        }
+
+        .timeline-event::before {
+            content: '';
+            position: absolute;
+            top: 15px;
+            right: -8px;
+            border-width: 10px;
+            border-style: solid;
+            border-color: transparent transparent transparent white;
+        }
+
+        .timeline-event:nth-child(even) {
+            left: 50%;
+        }
+h3{color:white;}
+
+        .timeline-event:nth-child(even)::before {
+            right: auto;
+            left: -8px;
+            border-color: transparent #824a49 transparent transparent;
+        }
+
+        .timeline-event:nth-child(even) .timeline-content {
+            text-align: right;
+        }
+
+        .timeline-content {
+            padding: 0 1.5em;
+            text-align: left;
+        }
+
+        .timeline-date {
+            font-weight: bold;
+            color:#430606;
+        }
+
+        @keyframes fadeIn {
+            from { opacity: 0; }
+            to { opacity: 1; }
+        }
+
+        @media (max-width: 768px) {
+            .timeline-event {
+                width: 100%;
+                left: 0;
+            }
+
+            .timeline::after {
+                left: 31px;
+                width: 6px;
+            }
+
+            .timeline-event::before {
+                left: 15px;
+                right: auto;
+                border-width: 8px;
+            }
+
+            .timeline-event:nth-child(even)::before {
+                left: auto;
+                right: 15px;
+                border-width: 8px;
+            }
+        }
+        @keyframes slideInLeft {
+            from {
+                opacity: 0;
+                transform: translateX(-20px);
+            }
+            to {
+                opacity: 1;
+                transform: translateX(0);
+            }
+        }
+
+        @keyframes slideInRight {
+            from {
+                opacity: 0;
+                transform: translateX(20px);
+            }
+            to {
+                opacity: 1;
+                transform: translateX(0);
+            }
+        }
+
+        
+
+        @media (max-width: 768px) {
+            .container {
+                width: 90%;
+            }
+
+            .tabs {
+                flex-direction: column;
+            }
+
+            .tab-buttons {
+                width: 100%;
+                border-right: none;
+                border-top: 2px solid #ddd;
+            }
+
+            .tab-content {
+                border-left: none;
+                border-top: 2px solid #ddd;
+            }
+
+            .timeline-date {
+                left: 0;
+                text-align: center;
+                width: 100%;
+                position: relative;
+            }
+
+            
+        }
+         .container {
+            width: 90%;
+            margin: 0 auto;
+            max-width: 1200px;
+        }
+
+
+
+
+</style>
+
+
+
+
+
+<body id="page-top">
+
+  <nav class="navbar navbar-expand-lg navbar-dark bg-secondary  fixed-top" id="sideNav" style="background:linear-gradient(#430606, black);">
+    <a class="navbar-brand js-scroll-trigger" href="#page-top">
+
+      <!--Write your Name here! -->
+      <span class="d-block d-lg-none">Profile</span>
+      <span class="d-none d-lg-block">
+        <img id="myDIV"class="img-fluid img-profile rounded-circle mx-auto mb-2" src="img/profile.jpg" alt="">
+      </span>
+    </a>
+
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav">
+        <li class="nav-item">
+          <a class="nav-link js-scroll-trigger" href="#about">Profile</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link js-scroll-trigger" href="#experience">Experience</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link js-scroll-trigger" href="#education">Academia</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link js-scroll-trigger" href="#skills">Skill Set</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link js-scroll-trigger" href="#interests">Interests & Hobbies</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link js-scroll-trigger" href="#contact">Contact Me</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+
+  <div class="container-fluid p-0">
+
+ <h1 style="background:linear-gradient(#430606, black); text-align:center; padding-top:50px;" >I'm Sohaib Ahmed.</h1>
+  <h3 style="text-align:center; background: linear-gradient(90deg,grey,black);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;">Software Developer</h3>
+    <section>
+ <div class="company" id="about">
+
+    <div class="company-info" >
+      <span>About <span class="our">Me</span></span>
+
+      <p>
+         "I’m a first-semester BS Software Engineering student at FAST University, stepping into the tech world with ambition and style. Passionate about coding and innovation, I aim to create smart, impactful solutions that stand out. With a bold mindset and a focus on excellence, I’m ready to leave my mark on the software industry."
+      </p>
+    </div>
+    <div class="img">
+      <img src="img/Me.png" alt="">
+    </div>
+  </div>
+ </section>
+
+
+
+    <hr class="m-0">
+
+    <section class="resume-section p-3 p-lg-5 d-flex justify-content-center" id="experience">
+      <div class="w-100">
+        <h2 class="mb-5">Experience</h2>
+        
+        
+          <div class="resume-content">
+            <h3 class="mb-0">Director Media</h3>
+            <div class="subheading mb-3"> <a href="https://docomedo.com/" target="_blank">docomedo.com</a></div>
+           <p>As the Director of Media, I led creative strategies to boost brand awareness and engagement. I managed social media campaigns, created impactful content, and collaborated with teams to deliver innovative projects. My work resulted in a 30% growth in audience engagement and successful execution of media initiatives</p>
+          </div>
+        
+        
+
+       
+          <div class="resume-content">
+            <h3 class="mb-0">Internship</h3>
+            <div class="subheading mb-3"><a href="https://pluraldynamics.com/" target="_blank">Pluraldynamics.com</a></div>
+            <p>At Pluraldynamics.com, I worked on software development and web projects, gaining hands-on experience in coding and debugging. I collaborated with the team to create efficient workflows, speeding up project. This role enhanced my technical knowledge and teamwork abilities.</p>
+          </div>
+      
+
+      </div>
+
+    </section>
+
+    <hr class="m-0">
+
+    <div class="container"  id="education">
+            <h1 style="text-align: center;">Education Timeline</h1>
+        </div>
+
+        <div class="timeline">
+            <div class="timeline-event">
+                <div class="timeline-content">
+                    <div class="timeline-date">ONWARDS</div>
+                    <h3>BS Software Engineering</h3>
+                    <p>National University Of Computer & Emerging Sciences (Fast), Peshawar</p>
+                </div>
+            </div>
+            <div class="timeline-event">
+                <div class="timeline-content">
+                    <div class="timeline-date">Jan, 2024</div>
+                    <h3>Intermediate</h3>
+                    <p>Army Public School & College, Bahawalpur(FBISE)</p>
+                </div>
+            </div>
+            <div class="timeline-event">
+                <div class="timeline-content">
+                    <div class="timeline-date">March 2022</div>
+                    <h3>Matriculation</h3>
+                    <p>Army Public School & College, Bahawalpur(FBISE)</p>
+                </div>
+            </div>
+            <div class="timeline-event">
+                <div class="timeline-content">
+                    <div class="timeline-date">...</div>
+                    <h3>Middle</h3>
+                    <p>Beconhouse, Peshawar</p>
+                </div>
+            </div>
+            <div class="timeline-event">
+                <div class="timeline-content">
+                    <div class="timeline-date">...</div>
+                    <h3>Junior</h3>
+                    <p>Army Public School & College, Petaro</p>
+                </div>
+            </div>
+            <div class="timeline-event">
+                <div class="timeline-content">
+                    <div class="timeline-date">...</div>
+                    <h3>Primary</h3>
+                    <p>F.g Fazaia Public School PAF Masroor base</p>
+                </div>
+            </div>
+          
+        </div>
+    </div>
+     
+
+        </div>
+        </div>
+    </section>
+
+    <hr class="m-0">
+
+    <section class="resume-section p-3 p-lg-5 d-flex align-items-center" id="skills">
+      <div class="w-100">
+        <h2 class="mb-5">Skills</h2>
+
+        <div class="subheading mb-3">Technologies & Tools</div>
+        <ul class="list-inline dev-icons">
+          <li class="list-inline-item">
+            <i class="fab fa-html5"></i>
+          </li>
+          <li class="list-inline-item">
+            <i class="fab fa-css3-alt"></i>
+          </li>
+          <li class="list-inline-item">
+            <i class="fab fa-github"></i>
+          </li>
+          <li class="list-inline-item">
+            <i class="fab fa-wordpress"></i>
+          </li>
+          <li class="list-inline-item">
+            <i class="fab fa-bootstrap"></i>
+          </li>
+        </ul>
+
+        <ul class="fa-ul mb-0">
+          <li>
+            <i class="fa-li fa fa-check"></i>
+            Senior React Native Developer  </li>
+          <li>
+            <i class="fa-li fa fa-check"></i>
+            Full-Stack Web Developer</li>
+            <li>
+            <i class="fa-li fa fa-check"></i>
+            Senior React Native Developer  </li>
+            <li>
+            <i class="fa-li fa fa-check"></i>
+            Senior React Native Developer  </li>
+            <li>
+            <i class="fa-li fa fa-check"></i>
+            Senior React Native Developer  </li>
+            <li>
+            <i class="fa-li fa fa-check"></i>
+            Senior React Native Developer  </li>
+        </ul>
+      </div>
+    </section>
+
+    <hr class="m-0">
+
+    <section class="resume-section p-3 p-lg-5 d-flex align-items-center" id="interests">
+      <div class="w-100">
+        <h2 class="mb-5">Interests & Hobbies</h2>
+        <p> Apart from being a developer, I love watching movies and spending most of my time outdoors. Whether it's playing outdoor games or tending to my garden, I find these activities to be a perfect escape and a way to stay active. Gardening is a relaxing hobby where I grow plants and enjoy being close to nature.</p>
+        </ul>
+      </div>
+    </section>
+
+    <hr class="m-0">
+
+
+ <section id="contact">
+   <h2 class="text-secondary" style="margin-left:5%;">Contact Me</h2>
+  <hr style="width: 200px; margin-left:5%;border-top: 3px solid rgba(255,255,255,0.6);">
+  <div class="container-fluid p-0" style="margin-left:5%;">
+ <div class="company" id="about">
+
+  <div class="mt-4">
+    <p><i class="fa fa-map-marker fa-fw text-white fa-2x me-3"></i> Pakistan</p>
+    <p><i class="fa fa-phone fa-fw text-white fa-2x me-3"></i> Phone: +92 3476689915 / +92 3136600235</p>
+    <p><i class="fa fa-envelope fa-fw text-white fa-2x me-3"></i><a href="https://mail.yahoo.com/d/folders/1"> Email: sohaib_ahmed03@yahoo.com </a></p>
+     <p><i class="fa fa-instagram fa-fw text-white fa-2x me-3"></i> <a href="https://www.instagram.com/sohaibahmed_101/">Email: sohaib_ahmed03@yahoo.com</a></p>
+
+  </div>
+  <div>
+      <img src="img/barcode.png" style="height:50%;" alt="">
+    </div>
+
+  </div>
+</div>
+
+
+ </section>
+
+
+
+ <!-- Floating Social Media bar Starts -->
+<div class="float-sm">
+  <div class="fl-fl float-fb">
+    <i class="fa fa-facebook"></i>
+    <a href="" target="_blank"> Like us!</a>
+  </div>
+  <div class="fl-fl float-tw">
+    <i class="fa fa-twitter"></i>
+    <a href="" target="_blank">Follow us!</a>
+  </div>
+  <div class="fl-fl float-gp">
+    <i class="fa fa-google-plus"></i>
+    <a href="" target="_blank">Recommend us!</a>
+  </div>
+  <div class="fl-fl float-rs">
+    <i class="fa fa-rss"></i>
+    <a href="" target="_blank">Follow via RSS</a>
+  </div>
+  <div class="fl-fl float-ig">
+    <i class="fa fa-instagram"></i>
+    <a href="" target="_blank">Follow us!</a>
+  </div>
+  <div class="fl-fl float-pn">
+    <i class="fa fa-pinterest"></i>
+    <a href="" target="_blank">Follow us!</a>
+  </div>
+</div>
+
+  <!-- Bootstrap core JavaScript -->
+  <script src="vendor/jquery/jquery.min.js"></script>
+  <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+  <!-- Plugin JavaScript -->
+  <script src="vendor/jquery-easing/jquery.easing.min.js"></script>
+
+  <!-- Custom scripts for this template -->
+  <script src="js/resume.min.js"></script>
+
+</body>
+
+</html>
